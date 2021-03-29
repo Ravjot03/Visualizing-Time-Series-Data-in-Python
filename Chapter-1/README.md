@@ -12,14 +12,14 @@ In this jupyter notebook, we will learn how to leverage basic plottings tools in
 3. Exploratory Data Analysis (EDA)
 4. Data Pre-processing
 5. Data Visualizations
-    - Basic Time Series Plot
-    - Adding labels to the plot
-    - Changing the style of the plot
-    - Formatting the plot style
-    - Subsetting the time series
-    - Adding Vertical & Horizontal Markers
-    - Adding Shaded Regions
-    - Markers & Shaded Regions
+    - **Basic Time Series Plot**
+    - **Adding labels to the plot**
+    - **Changing the style of the plot**
+    - **Formatting the plot style**
+    - **Subsetting the time series**
+    - **Adding Vertical & Horizontal Markers**
+    - **Adding Shaded Regions**
+    - **Markers & Shaded Regions**
 6. Conclusion
 
 ---
