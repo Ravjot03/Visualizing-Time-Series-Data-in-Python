@@ -24,4 +24,4 @@ In this jupyter notebook, we will learn how to leverage basic plottings tools in
 
 ---
 ## Data Info:
-This time series dataset contains the number of "great" inventions and scientific discoveries from year 1860 to 1959. [(dataset)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-1/ch1_discoveries.csv)
+This time series dataset contains the number of "great" inventions and scientific discoveries from year 1860 to 1959. [(data)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-1/ch1_discoveries.csv)
