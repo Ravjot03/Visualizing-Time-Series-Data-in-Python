@@ -24,3 +24,6 @@ In this jupyter notebook, we will learn about deeper understanding of our time s
     - Histograms
     - Density Plots
 8. Conclusion
+
+## Data Info:
+This time series dataset contains the CO2 measurements at the Mauna Loa Observatory, Hawaii between the years of 1958 and 2001. [(dataset)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-2/ch2_co2_levels.csv)
