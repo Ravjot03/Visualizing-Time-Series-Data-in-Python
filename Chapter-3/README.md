@@ -29,3 +29,16 @@ And, also learn how to detect seasonality, trend and noise in time series data.
 ---
 ## Data Info :
 This time series dataset contains the CO2 measurements at the Mauna Loa Observatory, Hawaii between the years of 1958 and 2001. [(data)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-3/ch2_co2_levels.csv)
+
+---
+## Theoretical Concepts:
+
+### Q-1. Autocorrelation
+
+- Autocorrelation is a measure of the correlation between the time series and a delayed copy of itself.
+
+- For example, an autocorrelation of order 3 returns the correlation between a time series at points t_1, t_2, t_3, and its own values lagged by 3 time points, i.e. t_4, t_5, t_6.
+
+- Autocorrelation is used to find repeating patterns or periodic signals in time series data.
+
+- The principle of autocorrelation can be applied to any signal, and not just time series. Therefore, it is common to encounter the same principle in other fields, where it is also sometimes referred to as autocovariance.
