@@ -21,7 +21,7 @@ And, also learn how to detect seasonality, trend and noise in time series data.
     - Time series Decomposition
     - Plot of time series decomposition
     - Extracting components from time series decomposition
-    - **Seasonal component** in time series
+    - **Seasonality component** in time series
     - **Trend component** in time series
     - **Noise component** in time series
 6. Conclusion
