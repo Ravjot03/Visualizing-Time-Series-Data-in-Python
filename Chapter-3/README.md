@@ -34,7 +34,6 @@ This time series dataset contains the CO2 measurements at the Mauna Loa Observat
 ## Theoretical Concepts:
 
 ### Q-1. Autocorrelation
-
 - Autocorrelation is a measure of the correlation between the time series and a delayed copy of itself.
 
 - For example, an autocorrelation of order 3 returns the correlation between a time series at points t_1, t_2, t_3, and its own values lagged by 3 time points, i.e. t_4, t_5, t_6.
@@ -42,3 +41,8 @@ This time series dataset contains the CO2 measurements at the Mauna Loa Observat
 - Autocorrelation is used to find repeating patterns or periodic signals in time series data.
 
 - The principle of autocorrelation can be applied to any signal, and not just time series. Therefore, it is common to encounter the same principle in other fields, where it is also sometimes referred to as autocovariance.
+
+### Q-2. Partial Autocorrelation
+- The partial autocorrelation measures the correlation coefficient between a time-series and lagged versions of itself. However, it extends this idea by also removing the effect of previous time points.
+
+- For example, a partial autocorrelation function of order 3 returns the correlation between the time series at points t_1 , t_2 , t_3 ,and lagged values of itself by 3 time points t_4, t_5, t_6, but only after removing all effects attributable to lags 1 and 2.
