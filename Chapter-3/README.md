@@ -28,4 +28,4 @@ And, also learn how to detect seasonality, trend and noise in time series data.
 
 ---
 ## Data Info :
-This time series dataset contains the CO2 measurements at the Mauna Loa Observatory, Hawaii between the years of 1958 and 2001. [dataset](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-3/ch2_co2_levels.csv)
+This time series dataset contains the CO2 measurements at the Mauna Loa Observatory, Hawaii between the years of 1958 and 2001. [(dataset)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-3/ch2_co2_levels.csv)
