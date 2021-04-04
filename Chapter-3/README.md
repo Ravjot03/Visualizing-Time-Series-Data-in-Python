@@ -31,7 +31,7 @@ And, also learn how to detect seasonality, trend and noise in time series data.
 This time series dataset contains the CO2 measurements at the Mauna Loa Observatory, Hawaii between the years of 1958 and 2001. [(data)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-3/ch2_co2_levels.csv)
 
 ---
-## Theoretical Concepts:
+## Theoretical Concepts :
 
 ### Q-1. Autocorrelation
 - Autocorrelation is a measure of the correlation between the time series and a delayed copy of itself.
