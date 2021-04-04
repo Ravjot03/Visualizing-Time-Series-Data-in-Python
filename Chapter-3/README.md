@@ -53,3 +53,8 @@ This time series dataset contains the CO2 measurements at the Mauna Loa Observat
 ### Q-4. Seasonality Component
 - Describes the periodic signal in the time series.
 - This extracts and plots the values for the seasonal component. A seasonal pattern exists when a time series is influenced by seasonal factors. Seasonality should always be a fixed and known period.
+
+### Q-5. Trend Component
+- Describes whether the time series is decreasing, constant or increasing over time.
+- This extracts the trend values of the time series decomposition. The trend component reflects the overall progression of the time series and can be extracted using the `decomposition.trend` command.
+
