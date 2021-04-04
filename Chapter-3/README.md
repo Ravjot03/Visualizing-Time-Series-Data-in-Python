@@ -58,3 +58,6 @@ This time series dataset contains the CO2 measurements at the Mauna Loa Observat
 - Describes whether the time series is decreasing, constant or increasing over time.
 - This extracts the trend values of the time series decomposition. The trend component reflects the overall progression of the time series and can be extracted using the `decomposition.trend` command.
 
+### Q-6. Noise Component
+- Describes the unexplained variance and volatility of the time series.
+- Noise/ Residual components describes random, irregular influences that could not be attributed to either trend or seasonality.
