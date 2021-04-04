@@ -49,3 +49,7 @@ This time series dataset contains the CO2 measurements at the Mauna Loa Observat
 
 ### Q-3. Time Series Decomposition
 - In general, most time series can be decomposed in three major components. The first is **seasonality**, which describes the periodic signal in the time series. The second component is **trend**, which describes whether the time series is decreasing, constant or increasing over time. Finally, the third component is **noise (resid/ residuals)**, which describes the unexplained variance and volatility of the time series.
+
+### Q-4. Seasonality Component
+- Describes the periodic signal in the time series.
+- This extracts and plots the values for the seasonal component. A seasonal pattern exists when a time series is influenced by seasonal factors. Seasonality should always be a fixed and known period.
