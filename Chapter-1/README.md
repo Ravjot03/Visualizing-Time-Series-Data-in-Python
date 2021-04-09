@@ -39,3 +39,5 @@ This time series dataset contains the number of "great" inventions and scientifi
     When plotting time series data in Python, it is also possible to highlight complete regions of the time series plot.
     - **Vertically Shading Regions :** `.axvspan()` - This function sets the vertical rectangle across the axes of the plot.
     - **Horizontally Shading Regions :** `.axhspan()` - This function sets the horizontal rectangle across the axes of the plot.
+
+---
