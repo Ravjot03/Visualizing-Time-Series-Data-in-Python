@@ -35,3 +35,5 @@ This time series dataset contains the number of "great" inventions and scientifi
     By adding markers at specific timestamps of our time series plot, we can highlight significant events.
     - **Vertical Markers :** `.axvline()` - This function adds the vertical lines across the axes of the plot.
     - **Horizontal Markers :** `.axhline()` - It is used to add a horizontal line across the axis.
+- ### Adding Shaded Regions
+    When plotting time series data in Python, it is also possible to highlight complete regions of the time series plot.
