@@ -25,3 +25,13 @@ In this jupyter notebook, we will learn how to leverage basic plottings tools in
 ---
 ## Data Info:
 This time series dataset contains the number of "great" inventions and scientific discoveries from year 1860 to 1959. [(data)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-1/ch1_discoveries.csv)
+
+---
+## Key Pointers:
+
+- ### Adding Vertical & Horizontal Markers
+    Additional annotations can help further emphasize specific observations or events.
+    
+    By adding markers at specific timestamps of our time series plot, we can highlight significant events.
+    - **Vertical Markers :** `.axvline()` - This function adds the vertical lines across the axes of the plot.
+    - **Horizontal Markers :** `.axhline()` - It is used to add a horizontal line across the axis.
