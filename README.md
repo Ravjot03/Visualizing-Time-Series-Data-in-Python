@@ -9,3 +9,4 @@ In this repository, I have explained how to start working with time series data,
 This repository is further divided into 4 sub-chapters - 
 
 - **Chapter-1 : Introduction to Time Series Plots**
+- **Chapter-2 : Plotting Rolling Models and Aggregate Values Models**
