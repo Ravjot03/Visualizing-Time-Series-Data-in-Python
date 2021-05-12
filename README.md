@@ -10,3 +10,4 @@ This repository is further divided into 4 sub-chapters -
 
 - **Chapter-1 : Introduction to Time Series Plots**
 - **Chapter-2 : Plotting Rolling Models and Aggregate Values Models**
+- **Chapter-3 : Autocorrelation, Partial Autocorrelation Plots and Seasonality, Trend and Noise Plots in Time Series Data**
