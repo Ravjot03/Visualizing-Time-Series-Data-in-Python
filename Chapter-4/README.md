@@ -22,4 +22,12 @@ In this jupyter notebook, we learnt how to plot multiple time series at once, an
     - Colormap Argument
     - Adding information to plots
     - Facet Plots
+6. Correlation b/w variables
+    - Compute correlations
+    - Correlation Matrix
+    - Computing correlation matrix with pandas
+    - Heat Maps
+    - Cluster Maps
+7. Conclusion
 
+---
