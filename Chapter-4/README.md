@@ -31,3 +31,5 @@ In this jupyter notebook, we learnt how to plot multiple time series at once, an
 7. Conclusion
 
 ---
+## Data Info:
+The dataset contains the amount of different types of meat produced in the USA between 1944 and 2012.
