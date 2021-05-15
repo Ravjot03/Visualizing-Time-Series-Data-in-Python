@@ -13,3 +13,13 @@ In this jupyter notebook, we learnt how to plot multiple time series at once, an
     - Knowing the dataset
     - Importing the dataset
     - Loading the dataset
+3. Data Manipulations
+4. Plotting the data
+    - Basic Line Chart
+    - Area Chart
+5. Enhancing Plots
+    - Clarity is Key
+    - Colormap Argument
+    - Adding information to plots
+    - Facet Plots
+
