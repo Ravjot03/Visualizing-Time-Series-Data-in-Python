@@ -84,4 +84,6 @@ One of the most widely used methods to assess the similarities between a group o
 
   For this reason, it is recommended to leverage the `clustermap()` function in the `seaborn` library, which applies hierarchical clustering to our correlation matrix to plot   a sorted heatmap, where similar time series are placed closer to one another.
   
-  The `clustermap()` function of seaborn plots a hierarchically-clustered heat map of the given matrix dataset. It returns a clustered grid index. 
+  The `clustermap()` function of seaborn plots a hierarchically-clustered heat map of the given matrix dataset. It returns a clustered grid index.
+
+---
