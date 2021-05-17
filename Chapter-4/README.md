@@ -52,3 +52,6 @@ When plotting multiple time series, matplotlib will iterate through its default 
 To remedy this, the `.plot()` method has an additional argument called `colormap`.This argument allows us to assign a wide range of color palettes with varying contrasts and intensities. We can either define our own Matplotlib colormap, or use a string that matches a colormap registered with matplotlib.
 
 Changing line colors with the color map argument.
+
+### 3. Facet Plots
+In order to overcome issues with visualizing datasets containing time series of different scales, we can leverage the `subplots` argument, which will plot each column of a DataFrame on a different subplot. In addition, the layout of our subplots can be specified using the `layout` keyword, which accepts two integers specifying the number of rows and columns to use. It is important to ensure that the total number of subplots is greater than or equal to the number of time series in our DataFrame. We can also specify if each subgraph should share the values of their x-axis and y-axis using the `sharex` and `sharey` arguments. Finally, we need to specify the total size of our graph (which will contain all subgraphs) using the `figsize` argument.
