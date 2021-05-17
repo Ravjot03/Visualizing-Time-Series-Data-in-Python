@@ -68,3 +68,8 @@ One of the most widely used methods to assess the similarities between a group o
   The result is a table containing the correlation coefficients between each pair of variables. Correlation coefficients can take any values between -1 and 1. A correlation     of 0 indicates no correlation, while 1 and -1 indicate strong positive and negative correlation.
 
   Importantly, a correlation matrix will be always be "symmetric", i.e., the correlation between x and y will be identical to the correlation between y and x. Finally, the     diagonal values will always be equal to 1, since the correlation between the variable x and a copy of itself is 1.
+
+- #### 4.3 Computing Correlation Matrix with pandas
+  The `pandas` library comes in with a `corr()` method that allows to measure the correlation between all pairs of columns in a DataFrame.
+
+  Using the meat dataset, we selected the columns beef , veal and turkey and invoked the `corr()` method by invoking both the `pearson` and `spearman` methods.
