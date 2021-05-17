@@ -45,13 +45,13 @@ Plotting and visualizing data that contains multiple time series can be a challe
 
 Now, we will discuss how multiple times series can be clearly displayed simultaneously in Python.
 
-#### 2.1 Clarity is Key
-When plotting multiple time series, matplotlib will iterate through its default color scheme until all columns in the DataFrame have been plotted. Therefore, the repetition of the default colors may make it difficult to distinguish some of the time series.
+- #### 2.1 Clarity is Key
+  When plotting multiple time series, matplotlib will iterate through its default color scheme until all columns in the DataFrame have been plotted. Therefore, the repetition   of the default colors may make it difficult to distinguish some of the time series.
+  
+- #### 2.2 Colormap Argument
+  To remedy this, the `.plot()` method has an additional argument called `colormap`.This argument allows us to assign a wide range of color palettes with varying contrasts     and intensities. We can either define our own Matplotlib colormap, or use a string that matches a colormap registered with matplotlib.
 
-#### 2.2 Colormap Argument
-To remedy this, the `.plot()` method has an additional argument called `colormap`.This argument allows us to assign a wide range of color palettes with varying contrasts and intensities. We can either define our own Matplotlib colormap, or use a string that matches a colormap registered with matplotlib.
-
-Changing line colors with the color map argument.
+  Changing line colors with the color map argument.
 
 ### 3. Facet Plots
 In order to overcome issues with visualizing datasets containing time series of different scales, we can leverage the `subplots` argument, which will plot each column of a DataFrame on a different subplot. In addition, the layout of our subplots can be specified using the `layout` keyword, which accepts two integers specifying the number of rows and columns to use. It is important to ensure that the total number of subplots is greater than or equal to the number of time series in our DataFrame. We can also specify if each subgraph should share the values of their x-axis and y-axis using the `sharex` and `sharey` arguments. Finally, we need to specify the total size of our graph (which will contain all subgraphs) using the `figsize` argument.
@@ -59,12 +59,12 @@ In order to overcome issues with visualizing datasets containing time series of 
 ### 4. Correlation b/w variables
 One of the most widely used methods to assess the similarities between a group of time series is by using the correlation coefficient. The correlation coefficient is a measure used to determine the strength or lack of relationship between two variables. The standard way to compute correlation coefficients is by using the Pearson's coefficient, which should be used when we think that the relationship between the variables of interest is linear. Otherwise, we can use the Kendall Tau or Spearman rank coefficient methods when the relationship between the variables of interest is thought to be non-linear.
 
-#### 4.1 Compute Correlations
-In Python, we can quickly compute the correlation coefficient between two variables by using the `pearsonr`, `spearmanr` or `kendalltau` functions in the `scipy.stats` module. All three of these correlation measures return both the correlation and p-value between the two variables.
+- #### 4.1 Compute Correlations
+  In Python, we can quickly compute the correlation coefficient between two variables by using the `pearsonr`, `spearmanr` or `kendalltau` functions in the `scipy.stats`       module. All three of these correlation measures return both the correlation and p-value between the two variables.
 
-#### 4.2 Correlation Matrix
-If we want to investigate the dependence between multiple variables at the same time, we will need to compute a correlation matrix.
+- #### 4.2 Correlation Matrix
+  If we want to investigate the dependence between multiple variables at the same time, we will need to compute a correlation matrix.
 
-The result is a table containing the correlation coefficients between each pair of variables. Correlation coefficients can take any values between -1 and 1. A correlation of 0 indicates no correlation, while 1 and -1 indicate strong positive and negative correlation.
+  The result is a table containing the correlation coefficients between each pair of variables. Correlation coefficients can take any values between -1 and 1. A correlation     of 0 indicates no correlation, while 1 and -1 indicate strong positive and negative correlation.
 
-Importantly, a correlation matrix will be always be "symmetric", i.e., the correlation between x and y will be identical to the correlation between y and x. Finally, the diagonal values will always be equal to 1, since the correlation between the variable x and a copy of itself is 1.
+  Importantly, a correlation matrix will be always be "symmetric", i.e., the correlation between x and y will be identical to the correlation between y and x. Finally, the     diagonal values will always be equal to 1, since the correlation between the variable x and a copy of itself is 1.
