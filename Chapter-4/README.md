@@ -79,3 +79,9 @@ One of the most widely used methods to assess the similarities between a group o
   
   **Heatmap** is defined as a graphical representation of data using colors to visualize the value of the matrix. In this, to represent more common values or higher             activities brighter colors basically reddish colors are used and to represent less common or activity values, darker colors are preferred. Heatmap is also defined by the     name of the shading matrix. Heatmaps in Seaborn can be plotted by using the `seaborn.heatmap()` function.
   
+- #### 4.5 Cluster Maps
+  Heatmap is a useful tool to visualize correlation matrices, but the lack of ordering can make it difficult to read, or even identify which groups of time series are the       most similar.
+
+  For this reason, it is recommended to leverage the `clustermap()` function in the `seaborn` library, which applies hierarchical clustering to our correlation matrix to plot   a sorted heatmap, where similar time series are placed closer to one another.
+  
+  The `clustermap()` function of seaborn plots a hierarchically-clustered heat map of the given matrix dataset. It returns a clustered grid index. 
