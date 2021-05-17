@@ -55,3 +55,9 @@ Changing line colors with the color map argument.
 
 ### 3. Facet Plots
 In order to overcome issues with visualizing datasets containing time series of different scales, we can leverage the `subplots` argument, which will plot each column of a DataFrame on a different subplot. In addition, the layout of our subplots can be specified using the `layout` keyword, which accepts two integers specifying the number of rows and columns to use. It is important to ensure that the total number of subplots is greater than or equal to the number of time series in our DataFrame. We can also specify if each subgraph should share the values of their x-axis and y-axis using the `sharex` and `sharey` arguments. Finally, we need to specify the total size of our graph (which will contain all subgraphs) using the `figsize` argument.
+
+### 4. Correlation b/w variables
+One of the most widely used methods to assess the similarities between a group of time series is by using the correlation coefficient. The correlation coefficient is a measure used to determine the strength or lack of relationship between two variables. The standard way to compute correlation coefficients is by using the Pearson's coefficient, which should be used when we think that the relationship between the variables of interest is linear. Otherwise, we can use the Kendall Tau or Spearman rank coefficient methods when the relationship between the variables of interest is thought to be non-linear.
+
+#### 4.1 Compute Correlations
+In Python, we can quickly compute the correlation coefficient between two variables by using the `pearsonr`, `spearmanr` or `kendalltau` functions in the `scipy.stats` module. All three of these correlation measures return both the correlation and p-value between the two variables.
