@@ -61,3 +61,10 @@ One of the most widely used methods to assess the similarities between a group o
 
 #### 4.1 Compute Correlations
 In Python, we can quickly compute the correlation coefficient between two variables by using the `pearsonr`, `spearmanr` or `kendalltau` functions in the `scipy.stats` module. All three of these correlation measures return both the correlation and p-value between the two variables.
+
+#### 4.2 Correlation Matrix
+If we want to investigate the dependence between multiple variables at the same time, we will need to compute a correlation matrix.
+
+The result is a table containing the correlation coefficients between each pair of variables. Correlation coefficients can take any values between -1 and 1. A correlation of 0 indicates no correlation, while 1 and -1 indicate strong positive and negative correlation.
+
+Importantly, a correlation matrix will be always be "symmetric", i.e., the correlation between x and y will be identical to the correlation between y and x. Finally, the diagonal values will always be equal to 1, since the correlation between the variable x and a copy of itself is 1.
