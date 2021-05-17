@@ -35,3 +35,7 @@ In this jupyter notebook, we learnt how to plot multiple time series at once, an
 The dataset contains the amount of different types of meat produced in the USA between 1944 and 2012. [(data)](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/blob/main/Chapter-4/ch4_meat.csv)
 
 ---
+## Theoretical Concepts & Key Pointers:
+
+### Q-1. Area Chart
+Area charts are commonly used when dealing with multiple time series, and can be leveraged to represent cumulated totals. With the pandas library, we can simply leverage the .plot.area() method to produce an area chart.
