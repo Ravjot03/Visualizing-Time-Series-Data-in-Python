@@ -38,9 +38,10 @@ Feature engineering is the process of transforming raw data into features that b
 
 #### 1.1 Dealing with Missing Values
 
-- **Finding Missing Values**
+- **Finding Missing Values** -
+- 
 In the field of Data Science, it is common to encounter datasets with missing values. This is especially true in the case of time series data, where missing values can occur if a measurement fails to record the value at a specific timestamp.
 
 Missing values are one of the most common problems we can encounter when we prepare our data for machine learning. The reason for the missing values might be human errors, interruptions in the data flow, privacy concerns, etc. Whatever the reason, missing values affect the performance of machine learning models.
 
-- **Handling Missing Values or Imputation**
+- **Handling Missing Values or Imputation** -
