@@ -3,6 +3,7 @@
 ## Description:
 In this jupyter notebook, we will learn about deeper understanding of our time series data by computing summary statistics and plotting aggregated values from our data.
 
+---
 ## Contents:
 1. Importing the necessary libraries
 2. Importing and Loading the dataset
