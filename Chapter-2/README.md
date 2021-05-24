@@ -45,3 +45,11 @@ In the field of Data Science, it is common to encounter datasets with missing va
 Missing values are one of the most common problems we can encounter when we prepare our data for machine learning. The reason for the missing values might be human errors, interruptions in the data flow, privacy concerns, etc. Whatever the reason, missing values affect the performance of machine learning models.
 
 - **Handling Missing Values or Imputation** -
+
+We are filling the missing values in our dataset with bfill (backfilling) method.
+
+In this method, missing values are replaced using the next valid observation in the dataset.
+
+### 2. Plotting Rolling Models
+
+The stability of the model over time. A common time-series model assumption is that the coefficients are constant with respect to time.
