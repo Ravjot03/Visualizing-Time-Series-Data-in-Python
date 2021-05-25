@@ -71,3 +71,5 @@ We used the standard `.plot()` method but specified the kind argument to be `'hi
 In practice, histograms can be a substandard method for assessing the distribution of our data because they can be strongly affected by the number of bins that have been specified. Instead, kernel density plots represent a more effective way to view the distribution of our data.
 
 The standard `.plot()` method is specified with the kind argument set to `'density'`. We also specified an additional parameter `linewidth`, which controls the width of the line to be plotted.
+
+---
