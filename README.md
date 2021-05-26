@@ -19,3 +19,8 @@ In this chapter, I have explained how to leverage basic plottings tools in Pytho
 
 ## 2. [CHAPTER-2](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/tree/main/Chapter-2)
 In this chapter, I have explained about deeper understanding of our time series data by computing summary statistics and plotting aggregated values from our data.
+
+## 3. [CHAPTER-3](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/tree/main/Chapter-3)
+In this chapter, I have explained about autocorrelation and partial autocorrelation plots.
+
+And, also explained how to detect seasonality, trend and noise in time series data.
