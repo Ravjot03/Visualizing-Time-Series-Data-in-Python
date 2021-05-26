@@ -24,3 +24,10 @@ In this chapter, I have explained about deeper understanding of our time series 
 In this chapter, I have explained about autocorrelation and partial autocorrelation plots.
 
 And, also explained how to detect seasonality, trend and noise in time series data.
+
+## 4. [CHAPTER-4](https://github.com/Ravjot03/Visualizing-Time-Series-Data-in-Python/tree/main/Chapter-4)
+In the field of Data Science, it is common to work with multiple time series simultaneously.
+
+In this chapter, I have explained how to plot multiple time series at once, and how to discover and describe relationships between multiple time series.
+
+---
